@@ -5,9 +5,12 @@
 html, body {
     margin: 0px;
     padding: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
 
     font-family: 'Inter', sans-serif, 'Lucida Sans', 'Lucida Sans Regular', 
-    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
 }
 
 .container {
@@ -19,7 +22,7 @@ html, body {
     align-items: center;
     background-color: #fcf5f5;
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 .header {
